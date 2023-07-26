@@ -1,0 +1,38 @@
+body{
+	background-image: url("../images/back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cube{
+	background-image: url("../images/man.png");
+	background-repeat: no-repeat;
+	margin: auto;
+	width: 800px;
+	height: 500px;
+	background-position: center bottom;
+	padding:10px;
+	background-color: rgb(1, 1, 1, 0.3);
+}
+.post th{
+	background-color: blue;
+}
+	table{
+		border-collapse: collapse;
+}
+.post{
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	line-height: 35px;
+}
+.num{
+	color: red;
+}
+.post tr:hover{
+	color: yellow;
+}
+caption{
+	text-shadow: 1px 1px 2px #ffff;
+	font-size: 25px;
+}

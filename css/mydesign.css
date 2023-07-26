@@ -1,0 +1,213 @@
+@media (orientation: landscape) and (max-width:4000px){
+	#header{
+		display: flex;
+		justify-content: space-between;
+		justify-items: center;
+	}
+	#header > .first{
+	 	display: flex;
+	 	font-size: 23px;
+	 	text-decoration: underline;
+	}
+	#header img{
+		width: 100px;
+	}
+	#header > .third{
+		display: flex;
+		font-size: 20px;
+		gap: 20px;
+	}
+	#main{
+		display: flex;
+		justify-content: center;
+	}
+	#main > .photobox{
+		background-image: url("../images/udo.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 400px;
+		height: 330px;
+		margin-top: 40px;
+	}
+	#main > .fourth{
+		width: 400px;
+		height: 350px;
+		margin-left: 20px;
+	}
+	#main .fifth{
+		display: flex;
+		gap: 15px;
+	}
+	#main .sixth{
+		margin-top: 40px;
+		display: flex;
+	}
+	#main section{
+		margin-top: 10px;
+		font-weight: bold;
+		font-size: 17px;
+	}
+	#main .logo11, .logo12, .logo13{
+		height: 40px;
+		width: 50px;
+		margin-left: 30px;
+	}
+	#main .logo11{
+		background-image: url("../images/facebook.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#main .logo12{
+		background-image: url("../images/twitter.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#main .logo13{
+		background-image: url("../images/instagram.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#main .box{
+		width: 100px;
+		height: 30px;
+		font-size: 13px;
+		text-align: center;
+		margin-top: 7px;
+		padding-top: 15px;
+		background-color: purple;
+		color: #fff;
+	}
+	#main h1{
+		font-size: 50px;
+	}
+	#main h2{
+		text-decoration: underline;
+		font-size: 20px;
+	}
+	#main p{
+		font-size: 12px;
+		width: 200px;
+	}
+	#hero > .hero1{
+		display: flex;
+		justify-content: center;
+		gap: 100px;
+		font-weight: bold;
+		font-size: 25px;
+		margin-top: 100px;
+	}
+	#hero img{
+		width: 50px;
+		height: 50px;
+	}
+	#hero .twelevth{
+		text-align: center;
+		margin-top: 100px;
+	}
+	#hero h4{
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	#hero h3{
+	 font-weight: bold;
+	 font-size: 35px;
+	 margin-right: 40px;
+	}
+	#footer{
+		display: flex;
+		width: 1000px;
+		gap: 30px;
+		margin-left: 250px;
+		margin-top: 70px;
+		font-size: 12px;
+	}
+	#footer img{
+		width: 50px;
+		height: 50px;
+	}
+	#footer p{
+		font-weight: bold;
+		font-size: 20px;
+	}
+}
+@media (orientation: portrait) and (min-width: 480px){
+	#android > .section1{
+		display: flex;
+		justify-content: space-between;
+	}
+	#android img{
+		width: 60px;
+		height: 60px;
+	}
+	#android > .section2{
+		margin-left: 70px;
+	}
+	#android h1{
+		font-weight: bold;
+		font-size: 50px;
+	}
+	#android h2{
+		text-decoration: underline;
+	}
+	#android p{
+		font-size: 20px;
+		width: 400px;
+	}
+	#android .fifth{
+		display: flex;
+		gap: 50px;
+		margin-top: 50px;
+	}
+	#android .box{
+		color: #fff;
+		font-weight: bold;
+		background-color: purple;
+		width: 150px;
+		text-align: center;
+		padding-top: 20px;
+		height: 35px;
+	}
+	#android .sixth{
+		display: flex;
+		margin-top: 30px;
+	}
+	#android .logo11, .logo12, .logo13{
+		height: 40px;
+		width: 40px;
+		margin-left: 30px;
+	}
+	#android .logo11{
+		background-image: url("../images/facebook.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#android .logo12{
+		background-image: url("../images/twitter.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#android .logo13{
+		background-image: url("../images/instagram.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#android section{
+		font-weight: bold;
+		margin-top: 10px;
+	}
+	#android .section3{
+		width: 370px;
+		height: 250px;
+		margin-left: 100px;
+		margin-top: 20px;
+		background-image: url("../images/udo.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#android h3{
+		font-weight: bold;
+		text-align: center;
+		font-size: 40px;
+		margin-top: 100px;
+	}
+}
